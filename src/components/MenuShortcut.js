@@ -1,7 +1,7 @@
-import React from 'react'
+import PieChart from "./PieChart";
 
 const MenuShortcut = () => {
-  return (
+   return (
     <div className=' w-2/4'>
         <div className=' m-2 p-2 bg-blue-600'>
             <div className='flex justify-between'>
@@ -30,12 +30,18 @@ const MenuShortcut = () => {
         </div>
         <div className='flex'>
             <div className='m-2 p-2 bg-blue-600 hover:bg-blue-900 cursor-pointer font-bold text-white w-1/2'>Add Customer</div>
-            <div className='m-2 p-2 bg-blue-600 hover:bg-blue-900 cursor-pointer font-bold text-white w-1/2'>Add Reminder</div>
+            <div className='m-2 p-2 bg-blue-600 hover:bg-blue-900 cursor-pointer font-bold text-white w-1/2'>Order</div>
         </div>
         <div className='flex'>
             <div className='m-2 p-2 bg-blue-600 hover:bg-blue-900 cursor-pointer font-bold text-white w-1/2'>Payment In</div>
             <div className='m-2 p-2 bg-blue-600 hover:bg-blue-900 cursor-pointer font-bold text-white w-1/2'>Payment Out</div>
         </div>
+
+        <div className='border border-black m-2'>
+            <h3 className='bg-blue-900 text-white'>DISTRIBUTION IN LAST 30 DAYS</h3>
+            <PieChart/>
+        </div>
+
         
     </div>
   )
