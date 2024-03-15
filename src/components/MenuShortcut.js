@@ -37,10 +37,7 @@ const MenuShortcut = () => {
             <div className='m-2 p-2 bg-blue-600 hover:bg-blue-900 cursor-pointer font-bold text-white w-1/2'>Payment Out</div>
         </div>
 
-        <div className='border border-black m-2'>
-            <h3 className='bg-blue-900 text-white'>DISTRIBUTION IN LAST 30 DAYS</h3>
-            <PieChart/>
-        </div>
+        <PieChart/>
 
         
     </div>
@@ -48,11 +45,3 @@ const MenuShortcut = () => {
 }
 
 export default MenuShortcut;
-
-
-
-
-            {/* <div className='flex justify-between m-2 p-2 bg-blue-600 hover:bg-blue-900 cursor-pointer'>
-                    <p className=' text-white'>Quick info</p>
-                    <button className=' bg-yellow-200'> TODAY </button>
-            </div> */}

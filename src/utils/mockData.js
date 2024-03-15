@@ -30,3 +30,4 @@ export const Data = [
         mobileInShop:15,
     },
 ];
+

@@ -19,7 +19,7 @@ const chartConfig = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#08f26e", "#ff8f00", "#FF0000"],
+    colors: ["#00897b", "#ff8f00", "#FF0000"],
     legend: {
       show: false,
     },
@@ -28,6 +28,8 @@ const chartConfig = {
  
 const PieChart=() =>{
   return (
+    <div className='border border-black m-2'>
+    <h3 className='bg-blue-900 text-white'>DISTRIBUTION IN LAST 30 DAYS</h3>
     <Card>
       <CardHeader
         floated={false}
@@ -45,6 +47,7 @@ const PieChart=() =>{
         <Chart {...chartConfig} />
       </CardBody>
     </Card>
+    </div>
   );
 };
 

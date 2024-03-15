@@ -6,4 +6,5 @@
     - Install Readux Store and connect with app
     - Create UserSlice and connect with store
     - add chart in home page
+    - Add Bar Chart
 

@@ -1,11 +1,14 @@
 import React from 'react'
 import MenuShortcut from './MenuShortcut'
+import SecondaryContainer from './SecondaryContainer'
 
 const MainContainer = () => {
   return (
-    <div className=' col-span-8 mx-4 flex'>
+    <div className='col-span-8 mx-4'>
+    <div className='flex'>
         <MenuShortcut/>
-        <div className=' bg-blue-600 w-3/4 mx-4'>g</div>
+        <SecondaryContainer/>
+    </div>
     </div>
   )
 }
